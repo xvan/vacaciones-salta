@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Itinerario Norte - Fases y Días</name>
-    <description>Puntos jerárquicos por fase y día. Importable en Google Earth / My Maps.</description>
+    <name>Itinerario Norte - Circuito Completo</name>
+    <description>Puntos organizados por fase. Importable en Google My Maps.</description>
 
     <Style id="fase1">
       <IconStyle><color>ff4f9dff</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle>
@@ -22,335 +22,190 @@
 
     <Folder>
       <name>Ida</name>
-
-      <Folder>
-        <name>Día 1 - 2026-03-19</name>
-        <Placemark>
-          <name>Villa María</name>
-          <styleUrl>#fase1</styleUrl>
-          <description>Parada y descanso en costanera.</description>
-          <TimeStamp><when>2026-03-19</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 1</value></Data>
-            <Data name="day"><value>Día 1</value></Data>
-            <Data name="date"><value>2026-03-19</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-63.2476,-32.4075,0</coordinates></Point>
-        </Placemark>
-      </Folder>
-
-      <Folder>
-        <name>Día 2 - 2026-03-20</name>
-        <Placemark>
-          <name>Termas de Río Hondo</name>
-          <styleUrl>#fase1</styleUrl>
-          <description>Segunda noche de ida (viaje placer).</description>
-          <TimeStamp><when>2026-03-20</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 1</value></Data>
-            <Data name="day"><value>Día 2</value></Data>
-            <Data name="date"><value>2026-03-20</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-64.8608,-27.4935,0</coordinates></Point>
-        </Placemark>
-      </Folder>
-
-      <Folder>
-        <name>Día 3 - 2026-03-21</name>
-        <Placemark>
-          <name>Tilcara</name>
-          <styleUrl>#fase1</styleUrl>
-          <description>Llegada a destino en Quebrada.</description>
-          <TimeStamp><when>2026-03-21</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 1</value></Data>
-            <Data name="day"><value>Día 3</value></Data>
-            <Data name="date"><value>2026-03-21</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.4104,-23.5787,0</coordinates></Point>
-        </Placemark>
-        <Placemark>
-          <name>Pucará de Tilcara</name>
-          <styleUrl>#fase1</styleUrl>
-          <description>Paseo opcional al llegar con luz de tarde.</description>
-          <TimeStamp><when>2026-03-21</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 1</value></Data>
-            <Data name="day"><value>Día 3</value></Data>
-            <Data name="date"><value>2026-03-21</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.4117,-23.5758,0</coordinates></Point>
-        </Placemark>
-      </Folder>
+      <Placemark>
+        <name>Día 1 (19/03) - Villa María</name>
+        <styleUrl>#fase1</styleUrl>
+        <description>Parada y descanso en costanera. Salida 08:00, llegada ~15:00.</description>
+        <TimeStamp><when>2026-03-19</when></TimeStamp>
+        <Point><coordinates>-63.2476,-32.4075,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 2 (20/03) - Termas de Río Hondo</name>
+        <styleUrl>#fase1</styleUrl>
+        <description>Segunda noche de ida. Salida 08:00, llegada ~16:45.</description>
+        <TimeStamp><when>2026-03-20</when></TimeStamp>
+        <Point><coordinates>-64.8608,-27.4935,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 3 (21/03) - Tilcara</name>
+        <styleUrl>#fase1</styleUrl>
+        <description>Llegada a destino en Quebrada. Salida 08:00, llegada ~16:00.</description>
+        <TimeStamp><when>2026-03-21</when></TimeStamp>
+        <Point><coordinates>-65.4104,-23.5787,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 3 (21/03) - Pucará de Tilcara</name>
+        <styleUrl>#fase1</styleUrl>
+        <description>Paseo opcional al llegar con luz de tarde (~16:30-18:00).</description>
+        <TimeStamp><when>2026-03-21</when></TimeStamp>
+        <Point><coordinates>-65.4117,-23.5758,0</coordinates></Point>
+      </Placemark>
     </Folder>
 
     <Folder>
       <name>Quebrada</name>
-
-      <Folder>
-        <name>Día 4 - 2026-03-22</name>
-        <Placemark>
-          <name>Humahuaca</name>
-          <styleUrl>#fase2</styleUrl>
-          <description>Cabecera para subida a Hornocal.</description>
-          <TimeStamp><when>2026-03-22</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 2</value></Data>
-            <Data name="day"><value>Día 4</value></Data>
-            <Data name="date"><value>2026-03-22</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.3493,-23.2053,0</coordinates></Point>
-        </Placemark>
-        <Placemark>
-          <name>Serranía del Hornocal</name>
-          <styleUrl>#fase2</styleUrl>
-          <description>Mirador de 14 colores.</description>
-          <TimeStamp><when>2026-03-22</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 2</value></Data>
-            <Data name="day"><value>Día 4</value></Data>
-            <Data name="date"><value>2026-03-22</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.0990,-23.1880,0</coordinates></Point>
-        </Placemark>
-        <Placemark>
-          <name>Pucará de Tilcara</name>
-          <styleUrl>#fase2</styleUrl>
-          <description>Parada cultural en Tilcara.</description>
-          <TimeStamp><when>2026-03-22</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 2</value></Data>
-            <Data name="day"><value>Día 4</value></Data>
-            <Data name="date"><value>2026-03-22</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.4117,-23.5758,0</coordinates></Point>
-        </Placemark>
-      </Folder>
-
-      <Folder>
-        <name>Día 5 - 2026-03-23</name>
-        <Placemark>
-          <name>Salinas Grandes</name>
-          <styleUrl>#fase2</styleUrl>
-          <description>Excursión de alta montaña (sol y salitre).</description>
-          <TimeStamp><when>2026-03-23</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 2</value></Data>
-            <Data name="day"><value>Día 5</value></Data>
-            <Data name="date"><value>2026-03-23</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.9236,-23.6260,0</coordinates></Point>
-        </Placemark>
-      </Folder>
-
+      <Placemark>
+        <name>Día 4 (22/03) - Humahuaca</name>
+        <styleUrl>#fase2</styleUrl>
+        <description>Cabecera para subida a Hornocal. Salida ~07:30.</description>
+        <TimeStamp><when>2026-03-22</when></TimeStamp>
+        <Point><coordinates>-65.3493,-23.2053,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 4 (22/03) - Serranía del Hornocal</name>
+        <styleUrl>#fase2</styleUrl>
+        <description>Mirador de 14 colores (~10:00-13:30). Actividad suave por altura.</description>
+        <TimeStamp><when>2026-03-22</when></TimeStamp>
+        <Point><coordinates>-65.0990,-23.1880,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 4 (22/03) - Pucará de Tilcara</name>
+        <styleUrl>#fase2</styleUrl>
+        <description>Parada cultural (~14:30-16:00). Consultar acceso con perro.</description>
+        <TimeStamp><when>2026-03-22</when></TimeStamp>
+        <Point><coordinates>-65.4117,-23.5758,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 5 (23/03) - Salinas Grandes</name>
+        <styleUrl>#fase2</styleUrl>
+        <description>Excursión de alta montaña (~08:00-14:00). Sol fuerte y salitre — perro en base.</description>
+        <TimeStamp><when>2026-03-23</when></TimeStamp>
+        <Point><coordinates>-65.9236,-23.6260,0</coordinates></Point>
+      </Placemark>
     </Folder>
 
     <Folder>
       <name>Salta</name>
-
-      <Folder>
-        <name>Día 6 - 2026-03-24</name>
-        <Placemark>
-          <name>Salta Capital</name>
-          <styleUrl>#fase3</styleUrl>
-          <description>Cambio de base desde Quebrada.</description>
-          <TimeStamp><when>2026-03-24</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Salta</value></Data>
-            <Data name="day"><value>Día 6</value></Data>
-            <Data name="date"><value>2026-03-24</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.4232,-24.7829,0</coordinates></Point>
-        </Placemark>
-        <Placemark>
-          <name>Cerro San Bernardo</name>
-          <styleUrl>#fase3</styleUrl>
-          <description>Paseo vespertino.</description>
-          <TimeStamp><when>2026-03-24</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Salta</value></Data>
-            <Data name="day"><value>Día 6</value></Data>
-            <Data name="date"><value>2026-03-24</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.3937,-24.7946,0</coordinates></Point>
-        </Placemark>
-      </Folder>
-
-      <Folder>
-        <name>Día 7 - 2026-03-25</name>
-        <Placemark>
-          <name>Cachi</name>
-          <styleUrl>#fase3</styleUrl>
-          <description>Excursión por Cuesta del Obispo y Los Cardones.</description>
-          <TimeStamp><when>2026-03-25</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 3</value></Data>
-            <Data name="day"><value>Día 7</value></Data>
-            <Data name="date"><value>2026-03-25</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-66.1660,-25.1208,0</coordinates></Point>
-        </Placemark>
-      </Folder>
-
-      <Folder>
-        <name>Día 8 - 2026-03-26</name>
-        <Placemark>
-          <name>MAAM</name>
-          <styleUrl>#fase3</styleUrl>
-          <description>Museo de Arqueología de Alta Montaña.</description>
-          <TimeStamp><when>2026-03-26</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 3</value></Data>
-            <Data name="day"><value>Día 8</value></Data>
-            <Data name="date"><value>2026-03-26</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.4100,-24.7903,0</coordinates></Point>
-        </Placemark>
-        <Placemark>
-          <name>Quebrada de San Lorenzo</name>
-          <styleUrl>#fase3</styleUrl>
-          <description>Paseo verde y pet-friendly.</description>
-          <TimeStamp><when>2026-03-26</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 3</value></Data>
-            <Data name="day"><value>Día 8</value></Data>
-            <Data name="date"><value>2026-03-26</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.4875,-24.7312,0</coordinates></Point>
-        </Placemark>
-      </Folder>
+      <Placemark>
+        <name>Día 6 (24/03) - Salta Capital</name>
+        <styleUrl>#fase3</styleUrl>
+        <description>Cambio de base desde Quebrada. Llegada ~12:00.</description>
+        <TimeStamp><when>2026-03-24</when></TimeStamp>
+        <Point><coordinates>-65.4232,-24.7829,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 6 (24/03) - Cerro San Bernardo</name>
+        <styleUrl>#fase3</styleUrl>
+        <description>Paseo vespertino (~17:30-19:00). Subida por escaleras con perro.</description>
+        <TimeStamp><when>2026-03-24</when></TimeStamp>
+        <Point><coordinates>-65.3937,-24.7946,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 7 (25/03) - Cachi</name>
+        <styleUrl>#fase3</styleUrl>
+        <description>Excursión por Cuesta del Obispo y Los Cardones. Salida ~07:30, regreso ~16:30.</description>
+        <TimeStamp><when>2026-03-25</when></TimeStamp>
+        <Point><coordinates>-66.1660,-25.1208,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 8 (26/03) - MAAM</name>
+        <styleUrl>#fase3</styleUrl>
+        <description>Museo de Arqueología de Alta Montaña (~09:00-11:30). Perro en base.</description>
+        <TimeStamp><when>2026-03-26</when></TimeStamp>
+        <Point><coordinates>-65.4100,-24.7903,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 8 (26/03) - Quebrada de San Lorenzo</name>
+        <styleUrl>#fase3</styleUrl>
+        <description>Paseo verde y pet-friendly (~15:30-18:00).</description>
+        <TimeStamp><when>2026-03-26</when></TimeStamp>
+        <Point><coordinates>-65.4875,-24.7312,0</coordinates></Point>
+      </Placemark>
     </Folder>
 
     <Folder>
       <name>Cafayate</name>
-
-      <Folder>
-        <name>Día 8 noche - 2026-03-26</name>
-        <Placemark>
-          <name>Quebrada de las Conchas</name>
-          <styleUrl>#fase4</styleUrl>
-          <description>Tramo escénico hacia Cafayate.</description>
-          <TimeStamp><when>2026-03-26</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 4</value></Data>
-            <Data name="day"><value>Día 8</value></Data>
-            <Data name="date"><value>2026-03-26</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.9280,-25.8658,0</coordinates></Point>
-        </Placemark>
-        <Placemark>
-          <name>Cafayate</name>
-          <styleUrl>#fase4</styleUrl>
-          <description>Base en Valles Calchaquíes.</description>
-          <TimeStamp><when>2026-03-26</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 4</value></Data>
-            <Data name="day"><value>Día 8</value></Data>
-            <Data name="date"><value>2026-03-26</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.9770,-26.0733,0</coordinates></Point>
-        </Placemark>
-      </Folder>
-
-      <Folder>
-        <name>Día 9 - 2026-03-27</name>
-        <Placemark>
-          <name>San Carlos</name>
-          <styleUrl>#fase4</styleUrl>
-          <description>Parada camino a la Quebrada de las Flechas.</description>
-          <TimeStamp><when>2026-03-27</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 4</value></Data>
-            <Data name="day"><value>Día 9</value></Data>
-            <Data name="date"><value>2026-03-27</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-66.0522,-25.8952,0</coordinates></Point>
-        </Placemark>
-        <Placemark>
-          <name>Quebrada de las Flechas</name>
-          <styleUrl>#fase4</styleUrl>
-          <description>Paisaje lunar, ruta escénica.</description>
-          <TimeStamp><when>2026-03-27</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 4</value></Data>
-            <Data name="day"><value>Día 9</value></Data>
-            <Data name="date"><value>2026-03-27</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-66.3118,-25.9898,0</coordinates></Point>
-        </Placemark>
-      </Folder>
+      <Placemark>
+        <name>Día 8 noche (26/03) - Quebrada de las Conchas</name>
+        <styleUrl>#fase4</styleUrl>
+        <description>Tramo escénico Salta → Cafayate (~18:30). Castillos, Garganta del Diablo, Anfiteatro.</description>
+        <TimeStamp><when>2026-03-26</when></TimeStamp>
+        <Point><coordinates>-65.9280,-25.8658,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 8 noche (26/03) - Cafayate</name>
+        <styleUrl>#fase4</styleUrl>
+        <description>Base en Valles Calchaquíes. Llegada ~21:30.</description>
+        <TimeStamp><when>2026-03-26</when></TimeStamp>
+        <Point><coordinates>-65.9770,-26.0733,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 9 (27/03) - Bodegas Cafayate</name>
+        <styleUrl>#fase4</styleUrl>
+        <description>Recorrida por bodegas y viñedos (~09:30-13:00). Consultar política con perro.</description>
+        <TimeStamp><when>2026-03-27</when></TimeStamp>
+        <Point><coordinates>-65.9770,-26.0733,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 9 (27/03) - San Carlos</name>
+        <styleUrl>#fase4</styleUrl>
+        <description>Parada camino a la Quebrada de las Flechas (~14:30).</description>
+        <TimeStamp><when>2026-03-27</when></TimeStamp>
+        <Point><coordinates>-66.0522,-25.8952,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 9 (27/03) - Quebrada de las Flechas</name>
+        <styleUrl>#fase4</styleUrl>
+        <description>Paisaje lunar, ruta escénica (~15:00-18:30).</description>
+        <TimeStamp><when>2026-03-27</when></TimeStamp>
+        <Point><coordinates>-66.3118,-25.9898,0</coordinates></Point>
+      </Placemark>
     </Folder>
 
     <Folder>
       <name>Vuelta</name>
-
-      <Folder>
-        <name>Día 10 - 2026-03-28</name>
-        <Placemark>
-          <name>Recreo (fin de etapa montaña)</name>
-          <styleUrl>#fase5</styleUrl>
-          <description>Cafayate -> Recreo en modo paseo.</description>
-          <TimeStamp><when>2026-03-28</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 5</value></Data>
-            <Data name="day"><value>Día 10</value></Data>
-            <Data name="date"><value>2026-03-28</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-65.0608,-29.2812,0</coordinates></Point>
-        </Placemark>
-      </Folder>
-
-      <Folder>
-        <name>Día 11 - 2026-03-29</name>
-        <Placemark>
-          <name>Jesús María / Colonia Caroya (parada técnica)</name>
-          <styleUrl>#fase5</styleUrl>
-          <description>Primera parada técnica sugerida.</description>
-          <TimeStamp><when>2026-03-29</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 5</value></Data>
-            <Data name="day"><value>Día 11</value></Data>
-            <Data name="date"><value>2026-03-29</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-64.0943,-30.9815,0</coordinates></Point>
-        </Placemark>
-        <Placemark>
-          <name>Leones (parador autopista)</name>
-          <styleUrl>#fase5</styleUrl>
-          <description>Parada de almuerzo sugerida.</description>
-          <TimeStamp><when>2026-03-29</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 5</value></Data>
-            <Data name="day"><value>Día 11</value></Data>
-            <Data name="date"><value>2026-03-29</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-62.2977,-32.6580,0</coordinates></Point>
-        </Placemark>
-        <Placemark>
-          <name>San Pedro / Ramallo (parada técnica)</name>
-          <styleUrl>#fase5</styleUrl>
-          <description>Última parada antes de AMBA.</description>
-          <TimeStamp><when>2026-03-29</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 5</value></Data>
-            <Data name="day"><value>Día 11</value></Data>
-            <Data name="date"><value>2026-03-29</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-59.6615,-33.6793,0</coordinates></Point>
-        </Placemark>
-        <Placemark>
-          <name>Tigre (fin del viaje)</name>
-          <styleUrl>#fase5</styleUrl>
-          <description>Cierre del itinerario.</description>
-          <TimeStamp><when>2026-03-29</when></TimeStamp>
-          <ExtendedData>
-            <Data name="phase"><value>Fase 5</value></Data>
-            <Data name="day"><value>Día 11</value></Data>
-            <Data name="date"><value>2026-03-29</value></Data>
-          </ExtendedData>
-          <Point><coordinates>-58.5786,-34.4260,0</coordinates></Point>
-        </Placemark>
-      </Folder>
+      <Placemark>
+        <name>Día 10 (28/03) - Tafí del Valle</name>
+        <styleUrl>#fase5</styleUrl>
+        <description>Parada larga en vuelta (~10:30-12:00). Empanadas tucumanas y quesos.</description>
+        <TimeStamp><when>2026-03-28</when></TimeStamp>
+        <Point><coordinates>-65.7072,-26.8573,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 10 (28/03) - Recreo</name>
+        <styleUrl>#fase5</styleUrl>
+        <description>Fin de etapa montaña. Llegada ~18:00.</description>
+        <TimeStamp><when>2026-03-28</when></TimeStamp>
+        <Point><coordinates>-65.0608,-29.2812,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 11 (29/03) - Jesús María / Colonia Caroya</name>
+        <styleUrl>#fase5</styleUrl>
+        <description>Parada técnica 1 (~10:30). Cargar combustible y salames de Caroya.</description>
+        <TimeStamp><when>2026-03-29</when></TimeStamp>
+        <Point><coordinates>-64.0943,-30.9815,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 11 (29/03) - Leones (parador autopista)</name>
+        <styleUrl>#fase5</styleUrl>
+        <description>Parada de almuerzo (~13:30). YPF puente sobre autopista.</description>
+        <TimeStamp><when>2026-03-29</when></TimeStamp>
+        <Point><coordinates>-62.2977,-32.6580,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 11 (29/03) - San Pedro / Ramallo</name>
+        <styleUrl>#fase5</styleUrl>
+        <description>Última parada técnica (~17:00). Antes del tránsito de AMBA.</description>
+        <TimeStamp><when>2026-03-29</when></TimeStamp>
+        <Point><coordinates>-59.6615,-33.6793,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Día 11 (29/03) - Tigre</name>
+        <styleUrl>#fase5</styleUrl>
+        <description>Fin del viaje. Llegada estimada ~19:30-20:00.</description>
+        <TimeStamp><when>2026-03-29</when></TimeStamp>
+        <Point><coordinates>-58.5786,-34.4260,0</coordinates></Point>
+      </Placemark>
     </Folder>
 
   </Document>
