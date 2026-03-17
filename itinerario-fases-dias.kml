@@ -19,12 +19,6 @@
     <Style id="fase5">
       <IconStyle><color>ffff9f4f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href></Icon></IconStyle>
     </Style>
-    <Style id="lineaIda">
-      <LineStyle><color>ff4f9dff</color><width>4</width></LineStyle>
-    </Style>
-    <Style id="lineaVuelta">
-      <LineStyle><color>ffff9f4f</color><width>4</width></LineStyle>
-    </Style>
 
     <Folder>
       <name>Ida</name>
@@ -88,21 +82,6 @@
           <Point><coordinates>-65.4117,-23.5758,0</coordinates></Point>
         </Placemark>
       </Folder>
-
-      <Placemark>
-        <name>LineString Ida RN9</name>
-        <styleUrl>#lineaIda</styleUrl>
-        <description>Tigre -> Villa María -> Termas de Río Hondo -> Tilcara.</description>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            -58.5786,-34.4260,0
-            -63.2476,-32.4075,0
-            -64.8608,-27.4935,0
-            -65.4104,-23.5787,0
-          </coordinates>
-        </LineString>
-      </Placemark>
     </Folder>
 
     <Folder>
@@ -372,23 +351,6 @@
           <Point><coordinates>-58.5786,-34.4260,0</coordinates></Point>
         </Placemark>
       </Folder>
-
-      <Placemark>
-        <name>LineString Vuelta</name>
-        <styleUrl>#lineaVuelta</styleUrl>
-        <description>Cafayate -> Recreo -> paradas técnicas -> Tigre.</description>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            -65.9770,-26.0733,0
-            -65.0608,-29.2812,0
-            -64.0943,-30.9815,0
-            -62.2977,-32.6580,0
-            -59.6615,-33.6793,0
-            -58.5786,-34.4260,0
-          </coordinates>
-        </LineString>
-      </Placemark>
     </Folder>
 
   </Document>
