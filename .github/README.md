@@ -2,6 +2,8 @@ Plan maestro actualizado con decisiones de ida y vuelta.
 
 ## 🗺️ Itinerario: Circuito Norte Completo (Actualizado)
 
+[📍 Ver mapa en Google My Maps](https://www.google.com/maps/d/u/0/edit?mid=1oKf9Of63To05TAhBESCREfCxncw_urg&usp=sharing)
+
 ### Fase 1: Ida definida por RN9 (Jueves 19 a Sábado 21)
 
 Ruta elegida: **Tigre ➔ Córdoba ➔ Tilcara (RN9)**
@@ -79,5 +81,5 @@ Ruta elegida: **Tigre ➔ Córdoba ➔ Tilcara (RN9)**
 
 ## 🔗 Referencias de detalle
 
-* Ida detallada: `route-ida.md`
-* Vuelta detallada: `route-vuelta.md`
+* Ida detallada: [route-ida.md](../route-ida.md)
+* Vuelta detallada: [route-vuelta.md](../route-vuelta.md)
